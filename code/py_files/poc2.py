@@ -3,14 +3,6 @@ from langchain_groq import ChatGroq
 from langchain_core.messages import HumanMessage
 from langchain_core.messages import AIMessage
 
-# os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["LANGCHAIN_API_KEY"] = (
-    "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"
-)
-os.environ["GROQ_API_KEY"] = (
-    "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"
-)
-
 modelset_response = model = ChatGroq(model="llama3-8b-8192")
 print(f"Model set response = {modelset_response}")
 
