@@ -1,1 +1,2 @@
-langchain_grog
+langchain_groq
+langchain_huggingface
